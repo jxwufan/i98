@@ -1,0 +1,31 @@
+PODS:
+  - JLToast (1.3.2)
+  - p2.OAuth2 (2.1):
+    - SwiftKeychain (~> 0.1.5)
+  - SwiftHTTP (1.0.2)
+  - SwiftKeychain (0.1.5)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - JLToast (~> 1.3)
+  - p2.OAuth2
+  - SwiftHTTP (~> 1.0.0)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 8e618c8baf6323a5079c6549bb38d48357b31630
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  JLToast: e76b9f82ca29aef98993053302e5a9c49ed905a4
+  p2.OAuth2: 78da70ba63515176a4f5273fad960f36bbeac6d9
+  SwiftHTTP: 6d8ca031a9ce613a01e8f18b497503887b0b50c0
+  SwiftKeychain: 1387edad8b56c659daa93d9ffc99526bac5b0088
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0
