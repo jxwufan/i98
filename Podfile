@@ -3,10 +3,13 @@
  use_frameworks!
 
 target 'i98' do
+    pod 'NYTPhotoViewer'
     pod 'JLToast', '~> 1.3'
     pod 'SwiftHTTP', '~> 1.0.0'
     pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
     pod 'p2.OAuth2'
+    pod 'Alamofire', '~> 3.0'
+    pod "KCFloatingActionButton"
 end
 
 target 'i98Tests' do

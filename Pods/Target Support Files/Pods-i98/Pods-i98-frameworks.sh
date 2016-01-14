@@ -84,14 +84,20 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-i98/Alamofire.framework"
   install_framework "Pods-i98/JLToast.framework"
+  install_framework "Pods-i98/KCFloatingActionButton.framework"
+  install_framework "Pods-i98/NYTPhotoViewer.framework"
   install_framework "Pods-i98/SwiftHTTP.framework"
   install_framework "Pods-i98/SwiftKeychain.framework"
   install_framework "Pods-i98/SwiftyJSON.framework"
   install_framework "Pods-i98/p2_OAuth2.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-i98/Alamofire.framework"
   install_framework "Pods-i98/JLToast.framework"
+  install_framework "Pods-i98/KCFloatingActionButton.framework"
+  install_framework "Pods-i98/NYTPhotoViewer.framework"
   install_framework "Pods-i98/SwiftHTTP.framework"
   install_framework "Pods-i98/SwiftKeychain.framework"
   install_framework "Pods-i98/SwiftyJSON.framework"

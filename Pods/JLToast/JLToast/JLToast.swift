@@ -20,7 +20,7 @@
 import UIKit
 
 public struct JLToastDelay {
-    public static let ShortDelay: NSTimeInterval = 2.0
+    public static let ShortDelay: NSTimeInterval = 0.2
     public static let LongDelay: NSTimeInterval = 3.5
 }
 

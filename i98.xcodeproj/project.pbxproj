@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		314542211C27CED2004DA2A5 /* BoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314542201C27CED2004DA2A5 /* BoardTableViewCell.swift */; };
+		317323A01C16ADD800FAB1F8 /* UserReplyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173239F1C16ADD800FAB1F8 /* UserReplyTableViewCell.swift */; };
+		318548461C1C37C9000B0865 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318548451C1C37C9000B0865 /* Alamofire.framework */; };
+		318822141C2805CD00699C64 /* BoardListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318822131C2805CD00699C64 /* BoardListTableViewCell.swift */; };
+		318822161C281F6000699C64 /* AllTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318822151C281F6000699C64 /* AllTableViewController.swift */; };
+		318822181C28296900699C64 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318822171C28296900699C64 /* MessageTableViewController.swift */; };
+		3188221A1C282AB200699C64 /* UIVerticalAlignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318822191C282AB200699C64 /* UIVerticalAlignLabel.swift */; };
+		319EBD881C1B01340050C276 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EBD871C1B01330050C276 /* BoardViewController.swift */; };
+		319EBD8A1C1B3A6A0050C276 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 319EBD891C1B3A6A0050C276 /* JavaScriptCore.framework */; };
+		319EBD8C1C1B3CCB0050C276 /* ubb.js in Resources */ = {isa = PBXBuildFile; fileRef = 319EBD8B1C1B3CCB0050C276 /* ubb.js */; };
+		319EBD8E1C1BF4BD0050C276 /* ReplyEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EBD8D1C1BF4BD0050C276 /* ReplyEditorViewController.swift */; };
+		31B8782F1C17FB0D008A7818 /* NYTPhotoViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B8782E1C17FB0D008A7818 /* NYTPhotoViewer.framework */; };
+		31B878331C18074D008A7818 /* ReplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B878301C18074D008A7818 /* ReplyViewController.swift */; };
+		31B878341C18074D008A7818 /* PhotosProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B878311C18074D008A7818 /* PhotosProvider.swift */; };
+		31B878351C18074D008A7818 /* ExamplePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B878321C18074D008A7818 /* ExamplePhoto.swift */; };
+		31B8783A1C1A786C008A7818 /* UserBoardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B878391C1A786C008A7818 /* UserBoardTableViewController.swift */; };
 		31C779D81C15A18D00C4DAF0 /* TopicDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C779D71C15A18D00C4DAF0 /* TopicDetailTableViewController.swift */; };
-		31C779DB1C15A3F000C4DAF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C779D91C15A3F000C4DAF0 /* Main.storyboard */; };
+		31CF84091C254C25007F9116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31CF84081C254C25007F9116 /* Assets.xcassets */; };
+		31CF840B1C254D8A007F9116 /* KCFloatingActionButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CF840A1C254D8A007F9116 /* KCFloatingActionButton.framework */; };
+		31CF840E1C255421007F9116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CF840C1C255421007F9116 /* Main.storyboard */; };
+		31D607301C1E824C004211C9 /* ZFRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D6072F1C1E824C004211C9 /* ZFRippleButton.swift */; };
 		31D8BF441C15269300E63689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8BF431C15269300E63689 /* AppDelegate.swift */; };
 		31D8BF461C15269300E63689 /* TopTenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8BF451C15269300E63689 /* TopTenViewController.swift */; };
 		31D8BF481C15269300E63689 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8BF471C15269300E63689 /* UserProfileViewController.swift */; };
-		31D8BF4D1C15269300E63689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D8BF4C1C15269300E63689 /* Assets.xcassets */; };
 		31D8BF501C15269300E63689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D8BF4E1C15269300E63689 /* LaunchScreen.storyboard */; };
 		31D8BF5B1C15269300E63689 /* i98Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8BF5A1C15269300E63689 /* i98Tests.swift */; };
 		31D8BF661C15269300E63689 /* i98UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8BF651C15269300E63689 /* i98UITests.swift */; };
@@ -22,6 +40,7 @@
 		31D8BF7A1C152EEF00E63689 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D8BF771C152EEF00E63689 /* SwiftyJSON.framework */; };
 		31DBB9201C15503000801562 /* p2_OAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DBB91E1C15503000801562 /* p2_OAuth2.framework */; };
 		31DBB9211C15503000801562 /* SwiftKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DBB91F1C15503000801562 /* SwiftKeychain.framework */; };
+		31EAC5B21C282FF400020EDE /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EAC5B11C282FF400020EDE /* MessageTableViewCell.swift */; };
 		4D591B7128AAE3767FB3ECDD /* Pods_i98.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A77223E6FCD595C6107ED30 /* Pods_i98.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,13 +63,32 @@
 
 /* Begin PBXFileReference section */
 		24475F4676C6A5FD7B03376E /* Pods-i98.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-i98.debug.xcconfig"; path = "Pods/Target Support Files/Pods-i98/Pods-i98.debug.xcconfig"; sourceTree = "<group>"; };
+		314542201C27CED2004DA2A5 /* BoardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardTableViewCell.swift; sourceTree = "<group>"; };
+		3173239F1C16ADD800FAB1F8 /* UserReplyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserReplyTableViewCell.swift; sourceTree = "<group>"; };
+		318548451C1C37C9000B0865 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		318822131C2805CD00699C64 /* BoardListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardListTableViewCell.swift; sourceTree = "<group>"; };
+		318822151C281F6000699C64 /* AllTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTableViewController.swift; sourceTree = "<group>"; };
+		318822171C28296900699C64 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		318822191C282AB200699C64 /* UIVerticalAlignLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVerticalAlignLabel.swift; sourceTree = "<group>"; };
+		319EBD871C1B01330050C276 /* BoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		319EBD891C1B3A6A0050C276 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		319EBD8B1C1B3CCB0050C276 /* ubb.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ubb.js; sourceTree = "<group>"; };
+		319EBD8D1C1BF4BD0050C276 /* ReplyEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplyEditorViewController.swift; sourceTree = "<group>"; };
+		31B8782E1C17FB0D008A7818 /* NYTPhotoViewer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NYTPhotoViewer.framework; path = "Pods/../build/Debug-iphoneos/NYTPhotoViewer.framework"; sourceTree = "<group>"; };
+		31B878301C18074D008A7818 /* ReplyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplyViewController.swift; sourceTree = "<group>"; };
+		31B878311C18074D008A7818 /* PhotosProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosProvider.swift; sourceTree = "<group>"; };
+		31B878321C18074D008A7818 /* ExamplePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplePhoto.swift; sourceTree = "<group>"; };
+		31B878361C1807EF008A7818 /* NYTPhotoViewer-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NYTPhotoViewer-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		31B878391C1A786C008A7818 /* UserBoardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserBoardTableViewController.swift; sourceTree = "<group>"; };
 		31C779D71C15A18D00C4DAF0 /* TopicDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicDetailTableViewController.swift; sourceTree = "<group>"; };
-		31C779DA1C15A3F000C4DAF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31CF84081C254C25007F9116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31CF840A1C254D8A007F9116 /* KCFloatingActionButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KCFloatingActionButton.framework; path = "Pods/../build/Debug-iphoneos/KCFloatingActionButton.framework"; sourceTree = "<group>"; };
+		31CF840D1C255421007F9116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31D6072F1C1E824C004211C9 /* ZFRippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFRippleButton.swift; sourceTree = "<group>"; };
 		31D8BF401C15269300E63689 /* i98.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = i98.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D8BF431C15269300E63689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31D8BF451C15269300E63689 /* TopTenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenViewController.swift; sourceTree = "<group>"; };
 		31D8BF471C15269300E63689 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
-		31D8BF4C1C15269300E63689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31D8BF4F1C15269300E63689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31D8BF511C15269300E63689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31D8BF561C15269300E63689 /* i98Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = i98Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +103,7 @@
 		31D8BF771C152EEF00E63689 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		31DBB91E1C15503000801562 /* p2_OAuth2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = p2_OAuth2.framework; path = "Pods/../build/Debug-iphoneos/p2_OAuth2.framework"; sourceTree = "<group>"; };
 		31DBB91F1C15503000801562 /* SwiftKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychain.framework; path = "Pods/../build/Debug-iphoneos/SwiftKeychain.framework"; sourceTree = "<group>"; };
+		31EAC5B11C282FF400020EDE /* MessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageTableViewCell.swift; path = ../MessageTableViewCell.swift; sourceTree = "<group>"; };
 		5A77223E6FCD595C6107ED30 /* Pods_i98.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_i98.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		674DCAFA2F717869A8C9E9FC /* Pods-i98.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-i98.release.xcconfig"; path = "Pods/Target Support Files/Pods-i98/Pods-i98.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +113,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31CF840B1C254D8A007F9116 /* KCFloatingActionButton.framework in Frameworks */,
+				318548461C1C37C9000B0865 /* Alamofire.framework in Frameworks */,
+				319EBD8A1C1B3A6A0050C276 /* JavaScriptCore.framework in Frameworks */,
+				31B8782F1C17FB0D008A7818 /* NYTPhotoViewer.framework in Frameworks */,
 				31DBB9201C15503000801562 /* p2_OAuth2.framework in Frameworks */,
 				31DBB9211C15503000801562 /* SwiftKeychain.framework in Frameworks */,
 				31D8BF781C152EEF00E63689 /* JLToast.framework in Frameworks */,
@@ -125,14 +168,30 @@
 		31D8BF421C15269300E63689 /* i98 */ = {
 			isa = PBXGroup;
 			children = (
+				31EAC5B11C282FF400020EDE /* MessageTableViewCell.swift */,
+				319EBD8B1C1B3CCB0050C276 /* ubb.js */,
 				31C779D71C15A18D00C4DAF0 /* TopicDetailTableViewController.swift */,
+				31D6072F1C1E824C004211C9 /* ZFRippleButton.swift */,
+				3173239F1C16ADD800FAB1F8 /* UserReplyTableViewCell.swift */,
 				31D8BF431C15269300E63689 /* AppDelegate.swift */,
 				31D8BF451C15269300E63689 /* TopTenViewController.swift */,
+				318822151C281F6000699C64 /* AllTableViewController.swift */,
+				31CF84081C254C25007F9116 /* Assets.xcassets */,
+				31CF840C1C255421007F9116 /* Main.storyboard */,
+				318822191C282AB200699C64 /* UIVerticalAlignLabel.swift */,
+				314542201C27CED2004DA2A5 /* BoardTableViewCell.swift */,
 				31D8BF471C15269300E63689 /* UserProfileViewController.swift */,
 				31D8BF731C1528A500E63689 /* BreakOutToRefreshView.swift */,
-				31D8BF4C1C15269300E63689 /* Assets.xcassets */,
-				31C779D91C15A3F000C4DAF0 /* Main.storyboard */,
+				319EBD8D1C1BF4BD0050C276 /* ReplyEditorViewController.swift */,
+				319EBD871C1B01330050C276 /* BoardViewController.swift */,
+				31B878391C1A786C008A7818 /* UserBoardTableViewController.swift */,
+				318822131C2805CD00699C64 /* BoardListTableViewCell.swift */,
+				31B878301C18074D008A7818 /* ReplyViewController.swift */,
+				318822171C28296900699C64 /* MessageTableViewController.swift */,
+				31B878311C18074D008A7818 /* PhotosProvider.swift */,
+				31B878321C18074D008A7818 /* ExamplePhoto.swift */,
 				31D8BF4E1C15269300E63689 /* LaunchScreen.storyboard */,
+				31B878361C1807EF008A7818 /* NYTPhotoViewer-Swift-Bridging-Header.h */,
 				31D8BF511C15269300E63689 /* Info.plist */,
 			);
 			path = i98;
@@ -159,6 +218,10 @@
 		DE622D7BEE85B46ED0EAD40A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				31CF840A1C254D8A007F9116 /* KCFloatingActionButton.framework */,
+				318548451C1C37C9000B0865 /* Alamofire.framework */,
+				319EBD891C1B3A6A0050C276 /* JavaScriptCore.framework */,
+				31B8782E1C17FB0D008A7818 /* NYTPhotoViewer.framework */,
 				31DBB91E1C15503000801562 /* p2_OAuth2.framework */,
 				31DBB91F1C15503000801562 /* SwiftKeychain.framework */,
 				31D8BF751C152EEF00E63689 /* JLToast.framework */,
@@ -249,7 +312,7 @@
 				TargetAttributes = {
 					31D8BF3F1C15269300E63689 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 89KJRKDWL2;
+						DevelopmentTeam = C9PVBNFW84;
 					};
 					31D8BF551C15269300E63689 = {
 						CreatedOnToolsVersion = 7.1;
@@ -288,9 +351,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31C779DB1C15A3F000C4DAF0 /* Main.storyboard in Resources */,
+				319EBD8C1C1B3CCB0050C276 /* ubb.js in Resources */,
+				31CF84091C254C25007F9116 /* Assets.xcassets in Resources */,
 				31D8BF501C15269300E63689 /* LaunchScreen.storyboard in Resources */,
-				31D8BF4D1C15269300E63689 /* Assets.xcassets in Resources */,
+				31CF840E1C255421007F9116 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,10 +428,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				31D8BF741C1528A500E63689 /* BreakOutToRefreshView.swift in Sources */,
+				319EBD881C1B01340050C276 /* BoardViewController.swift in Sources */,
+				3188221A1C282AB200699C64 /* UIVerticalAlignLabel.swift in Sources */,
+				314542211C27CED2004DA2A5 /* BoardTableViewCell.swift in Sources */,
+				31EAC5B21C282FF400020EDE /* MessageTableViewCell.swift in Sources */,
 				31D8BF481C15269300E63689 /* UserProfileViewController.swift in Sources */,
 				31C779D81C15A18D00C4DAF0 /* TopicDetailTableViewController.swift in Sources */,
+				319EBD8E1C1BF4BD0050C276 /* ReplyEditorViewController.swift in Sources */,
+				31B8783A1C1A786C008A7818 /* UserBoardTableViewController.swift in Sources */,
+				318822161C281F6000699C64 /* AllTableViewController.swift in Sources */,
+				317323A01C16ADD800FAB1F8 /* UserReplyTableViewCell.swift in Sources */,
+				318822181C28296900699C64 /* MessageTableViewController.swift in Sources */,
+				31B878351C18074D008A7818 /* ExamplePhoto.swift in Sources */,
+				31B878331C18074D008A7818 /* ReplyViewController.swift in Sources */,
 				31D8BF441C15269300E63689 /* AppDelegate.swift in Sources */,
 				31D8BF461C15269300E63689 /* TopTenViewController.swift in Sources */,
+				31D607301C1E824C004211C9 /* ZFRippleButton.swift in Sources */,
+				318822141C2805CD00699C64 /* BoardListTableViewCell.swift in Sources */,
+				31B878341C18074D008A7818 /* PhotosProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +481,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		31C779D91C15A3F000C4DAF0 /* Main.storyboard */ = {
+		31CF840C1C255421007F9116 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				31C779DA1C15A3F000C4DAF0 /* Base */,
+				31CF840D1C255421007F9116 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -510,13 +588,15 @@
 			baseConfigurationReference = 24475F4676C6A5FD7B03376E /* Pods-i98.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = i98/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zjuwater.i98;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjuwater.i98-20151221";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -526,13 +606,15 @@
 			baseConfigurationReference = 674DCAFA2F717869A8C9E9FC /* Pods-i98.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = i98/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zjuwater.i98;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjuwater.i98-20151221";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

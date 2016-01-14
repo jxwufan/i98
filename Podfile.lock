@@ -1,5 +1,8 @@
 PODS:
+  - Alamofire (3.1.3)
   - JLToast (1.3.2)
+  - KCFloatingActionButton (1.1.7)
+  - NYTPhotoViewer (0.1.2)
   - p2.OAuth2 (2.1):
     - SwiftKeychain (~> 0.1.5)
   - SwiftHTTP (1.0.2)
@@ -7,7 +10,10 @@ PODS:
   - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
+  - Alamofire (~> 3.0)
   - JLToast (~> 1.3)
+  - KCFloatingActionButton
+  - NYTPhotoViewer
   - p2.OAuth2
   - SwiftHTTP (~> 1.0.0)
   - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
@@ -22,7 +28,10 @@ CHECKOUT OPTIONS:
     :git: https://github.com/SwiftyJSON/SwiftyJSON.git
 
 SPEC CHECKSUMS:
+  Alamofire: 9f93b56389e48def9220dd57d1f44b1927229a5a
   JLToast: e76b9f82ca29aef98993053302e5a9c49ed905a4
+  KCFloatingActionButton: deb80e65e7b21fa066607b18a31ab492d9caac15
+  NYTPhotoViewer: 874a57dd833238b52ab2e8d1c827356c763626c3
   p2.OAuth2: 78da70ba63515176a4f5273fad960f36bbeac6d9
   SwiftHTTP: 6d8ca031a9ce613a01e8f18b497503887b0b50c0
   SwiftKeychain: 1387edad8b56c659daa93d9ffc99526bac5b0088

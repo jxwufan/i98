@@ -4,7 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JLToast.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>KCFloatingActionButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NYTPhotoViewer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,12 +57,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>24E992A33C990283C418CBD5DA539EDA</key>
+		<key>432ECC54282C84882B482CCB4CF227FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2C761FE0FBA21D9EEC2722A91D9395EB</key>
+		<key>4A16D82A65F9CF16D08F063C79F652A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4EBFEBEEC9FCF6BA5AAFC4F8797F7A20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7CD483F08A2AC430A4F47E66B4025664</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +87,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CB4F543F106E6A4C8E06C58B89F46537</key>
+		<key>E142AAA516EFFE1499EAF62FCA9DC56D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD9F0CEF64E21ECD951BC18DC8F12746</key>
 		<dict>
 			<key>primary</key>
 			<true/>

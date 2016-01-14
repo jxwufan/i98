@@ -12,11 +12,19 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    static let applicationShortcutUserInfoIconKey = "applicationShortcutUserInfoIconKey"
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+        // set if app launched from shorcut with boolean
+        var appLaunchedFromShortCut = false
+        // check current shortcut item
+        if let currentShorcutItem = launchOptions?[UIApplicationLaunchOptionsShortcutItemKey] as? UIApplicationShortcutItem {
+            appLaunchedFromShortCut = true
+            QuickActionsForItem(currentShorcutItem)
+        }
+        // return false if app already launched
+        return !appLaunchedFromShortCut
     }
 
     func applicationWillResignActive(application: UIApplication) {
@@ -44,3 +52,55 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate {
+    
+    /// Define quick actions type
+    enum QuickActionsType: String {
+        case TOPTEN = "com.zjuwater.topten"
+        case USERBOARD = "com.zjuwater.userboard"
+        case ALL = "com.zjuwater.all"
+        case USER = "com.zjuwater.user"
+    }
+    
+    /// Shortcut Item, also called a Home screen dynamic quick action, specifies a user-initiated action for app.
+    func QuickActionsForItem(shortcutItem: UIApplicationShortcutItem) -> Bool {
+        // set handled boolean
+        var isHandled = false
+        
+        // Get the string type from shorcut item
+        if let shorchutItemType = QuickActionsType.init(rawValue: shortcutItem.type) {
+            
+            // Get root navigation controller + root tab bar controller
+            let rootNavigationController = window!.rootViewController as? UINavigationController
+            let tabbarController = window!.rootViewController as? UITabBarController
+            // if needed pop to root view controller
+            rootNavigationController?.popToRootViewControllerAnimated(false)
+            
+            // return tabbarcontroller selected
+            switch shorchutItemType {
+            case .TOPTEN:
+                tabbarController!.selectedViewController = tabbarController!.viewControllers?[0]
+                break
+            case .USERBOARD:
+                tabbarController!.selectedViewController = tabbarController!.viewControllers?[1]
+                break
+            case .ALL:
+                tabbarController!.selectedViewController = tabbarController!.viewControllers?[2]
+                break
+                
+            case .USER:
+                tabbarController!.selectedViewController = tabbarController!.viewControllers?[3]
+                (tabbarController?.viewControllers?[3].childViewControllers[0] as! UserProfileViewController!).autoLogin = true
+                isHandled = true
+            }
+        }
+        return isHandled
+    }
+    
+    /// Calls - user selects a Home screen quick action for app
+    func application(application: UIApplication, performActionForShortcutItem shortcutItem: UIApplicationShortcutItem, completionHandler: (Bool) -> Void) {
+        // perform action for shortcut item selected
+        let handledShortCutItem = QuickActionsForItem(shortcutItem)
+        completionHandler(handledShortCutItem)
+    }
+}
